@@ -15,8 +15,8 @@ public class lanbdaa {
 //        new Thread( () ->{
 //            while (true){System.out.println("In lambda, lambda expression rocks !!");}}  ).start();
         new Thread(()-> System.out.println("ddd")).start();
-        Even
-        Timer t=new Timer(1000,new Event(()-> System.out.println("ddddddddd")));
+        //Even
+       // Timer t=new Timer(1000,new Event(()-> System.out.println("ddddddddd")));
         System.out.println(Arrays.toString(planets));
     }
 }
